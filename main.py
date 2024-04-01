@@ -2,21 +2,17 @@ class printShapes:
 	"""
 		Easily print shapes like squares, triangles and circles on the terminal.
 	"""
-	class square:
+	def square( side, value=0,spacing=2):
 		"""
-			Functions for printing squares
+			Print a Square using a single integer
 		"""
-		def monotonic( side, value=0,spacing=2):
-			"""
-				Print a Square using a single integer
-			"""
-			for i in range(side):
-				print((str(value)+(" "*spacing))*side)
-	
-	class rectangle:
-		def monotonic( l, b,  value=0,spacing=2):
-			for i in range(b):
-				print((str(value)+(" "*spacing))*l)
+		for i in range(side):
+			print((str(value)+(" "*spacing))*side)
+
+	def rectangle( l, b,  value=0,spacing=2):
+		for i in range(b):
+			print((str(value)+(" "*spacing))*l)
+
 	class triangle:
 		class right:
 			class bottom_left:
