@@ -13,3 +13,7 @@ class printShapes:
 			for i in range(side):
 				print((str(value)+(" "*spacing))*side)
 	
+	class rectangle:
+		def monotonic( l, b,  value=0,spacing=2):
+			for i in range(b):
+				print((str(value)+(" "*spacing))*l)
