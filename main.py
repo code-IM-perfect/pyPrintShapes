@@ -17,3 +17,21 @@ class printShapes:
 		def monotonic( l, b,  value=0,spacing=2):
 			for i in range(b):
 				print((str(value)+(" "*spacing))*l)
+	class triangle:
+		class right:
+			class bottom_left:
+				def monotonic( h, b, value=0,spacing=2):
+					for i in range(h):
+						print((str(value)+(" "*spacing))*(int(b*(i+1)/h)))
+			class top_left:
+				def monotonic(h,b,value=0,spacing=2):
+					for i in range(h,1,-1):
+						print((str(value)+(" "*spacing))*(int(b*(i)/h)))
+			# class bottom_right:
+			# 	def monotonic( h, b, value=0,spacing=2):
+			# 		for i in range(h):
+			# 			print((str(value)+(" "*spacing))*(int(b*(i+1)/h)))
+			# class top_right:
+			# 	def monotonic(h,b,value=0,spacing=2):
+			# 		for i in range(h,1,-1):
+			# 			print((str(value)+(" "*spacing))*(int(b*(i)/h)))
