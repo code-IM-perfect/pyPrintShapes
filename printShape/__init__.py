@@ -60,8 +60,3 @@ class printShapes:
 				else:
 					print(" ",end=(" "*spacing))
 			print("")
-
-
-# printShapes.diamond(13)
-printShapes.triangle.right.bottom_right(10, 5,5)
-# printShapes.circle(20)
