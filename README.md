@@ -4,6 +4,8 @@ You can print a huge variety of shapes- squares, rectangles, various triangles, 
 
 You can find the package [here]()
 
+The source code can be found [here](https://github.com/code-IM-perfect/pyPrintShapes)
+
 ## Installation
 ```
 pip install pyPrintShape
