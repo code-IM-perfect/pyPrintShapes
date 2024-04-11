@@ -55,8 +55,8 @@ class printShape:
 					:param spacing: Number of spaces between characters to make it look like an actual shape (Depends on your font tho, so adjust accordingly) 
 					:type  spacing: int
 				"""
-					for i in range(h):
-						print((str(value)+(" "*spacing))*(int(b*(i+1)/h)))
+				for i in range(h):
+					print((str(value)+(" "*spacing))*(int(b*(i+1)/h)))
 			def top_left(h,b,value=0,spacing=2):
 				"""
 					Print a right angled triangle pattern of integer digits in the top left.
@@ -73,8 +73,8 @@ class printShape:
 					:param spacing: Number of spaces between characters to make it look like an actual shape (Depends on your font tho, so adjust accordingly) 
 					:type  spacing: int
 				"""
-					for i in range(h,0,-1):
-						print((str(value)+(" "*spacing))*(int(b*(i)/h)))
+				for i in range(h,0,-1):
+					print((str(value)+(" "*spacing))*(int(b*(i)/h)))
 			def bottom_right( h, b, value=0,spacing=2):
 				"""
 					Print a right angled triangle pattern of integer digits in the bottom right.
@@ -91,9 +91,9 @@ class printShape:
 					:param spacing: Number of spaces between characters to make it look like an actual shape (Depends on your font tho, so adjust accordingly) 
 					:type  spacing: int
 				"""
-					for i in range(h):
-						printLen=int(b*(i+1)/h)
-						print((str(value)*(b-printLen)+(" "*spacing))*printLen)
+				for i in range(h):
+					printLen=int(b*(i+1)/h)
+					print((str(value)*(b-printLen)+(" "*spacing))*printLen)
 			def top_right(h,b,value=0,spacing=2):
 				"""
 					Print a right angled triangle pattern of integer digits in the top right.
@@ -110,8 +110,8 @@ class printShape:
 					:param spacing: Number of spaces between characters to make it look like an actual shape (Depends on your font tho, so adjust accordingly) 
 					:type  spacing: int
 				"""
-					for i in range(h,0,-1):
-						print(((" "*(spacing+1))*(b-(int(b*(i)/h))))+(str(value)+(" "*spacing))*(int(b*(i)/h)))
+				for i in range(h,0,-1):
+					print(((" "*(spacing+1))*(b-(int(b*(i)/h))))+(str(value)+(" "*spacing))*(int(b*(i)/h)))
 
 	def diamond(d, value=0, spacing=2):
 		"""
