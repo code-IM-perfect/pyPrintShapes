@@ -1,4 +1,4 @@
-class printShapes:
+class printShape:
 	"""Easily print various shapes on the terminal integer digits.
 		You can print a huge variety of shapes- squares, rectangles, various triangles, diamonds, circles.
 	"""
@@ -9,7 +9,7 @@ class printShapes:
 			:param side: The sidelength of square.
         	:type side: int
 
-			:param value:
+			:param value: The integer used to make the pattern
 			:type value: int
 
 			:param spacing: Number of spaces between characters to make it look like an actual shape (Depends on your font tho, so adjust accordingly) 
@@ -28,7 +28,7 @@ class printShapes:
 			:param b: The vertical side length of Rectangle.
         	:type b: int
 
-			:param value:
+			:param value: The integer used to make the pattern
 			:type value: int
 
 			:param spacing: Number of spaces between characters to make it look like an actual shape (Depends on your font tho, so adjust accordingly) 
@@ -49,7 +49,7 @@ class printShapes:
 					:param b: The base length of triangle.
 					:type b: int
 
-					:param value:
+					:param value: The integer used to make the pattern
 					:type value: int
 
 					:param spacing: Number of spaces between characters to make it look like an actual shape (Depends on your font tho, so adjust accordingly) 
@@ -67,7 +67,7 @@ class printShapes:
 					:param b: The base length of triangle.
 					:type b: int
 
-					:param value:
+					:param value: The integer used to make the pattern
 					:type value: int
 
 					:param spacing: Number of spaces between characters to make it look like an actual shape (Depends on your font tho, so adjust accordingly) 
@@ -85,7 +85,7 @@ class printShapes:
 					:param b: The base length of triangle.
 					:type b: int
 
-					:param value:
+					:param value: The integer used to make the pattern
 					:type value: int
 
 					:param spacing: Number of spaces between characters to make it look like an actual shape (Depends on your font tho, so adjust accordingly) 
@@ -104,7 +104,7 @@ class printShapes:
 					:param b: The base length of triangle.
 					:type b: int
 
-					:param value:
+					:param value: The integer used to make the pattern
 					:type value: int
 
 					:param spacing: Number of spaces between characters to make it look like an actual shape (Depends on your font tho, so adjust accordingly) 
@@ -120,7 +120,7 @@ class printShapes:
 			:param d: The diagonal length of diamond.
         	:type d: int
 
-			:param value:
+			:param value: The integer used to make the pattern
 			:type value: int
 
 			:param spacing: Number of spaces between characters to make it look like an actual shape (Depends on your font tho, so adjust accordingly) 
@@ -146,7 +146,7 @@ class printShapes:
 			:param radius: The radius of circle.
         	:type radius: int
 
-			:param value:
+			:param value: The integer used to make the pattern
 			:type value: int
 
 			:param spacing: Number of spaces between characters to make it look like an actual shape (Depends on your font tho, so adjust accordingly) 
