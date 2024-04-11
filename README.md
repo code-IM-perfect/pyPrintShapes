@@ -2,7 +2,7 @@
 This is a library that lets you easily print various shapes on the terminal using integer digits.\
 You can print a huge variety of shapes- squares, rectangles, various triangles, diamonds, circles.
 
-You can find the package [here]()
+You can find the package [here](https://pypi.org/project/pyPrintShape/)
 
 The source code can be found [here](https://github.com/code-IM-perfect/pyPrintShapes)
 
